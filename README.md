@@ -17,6 +17,16 @@
 * a family of related product objects is designed to be used together, and you need to enforce this constraint
 * you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations
 
+##抽象工厂
+**意图：**
+	 提供一个创建具有相关或者是独立对象群体的接口，这些相关或者独立的对象没有指定具体的类
+
+**适用：**
+	*一个系统的产品的创建/组合/表达应该是独立的时候
+	*一个系统应该由多个产品家族中的一个来配置的时候
+	*相关产品对象的群体被设计在一起，你需要增强他们之间的联系
+	*你想要提供一个产品类库，而且你只想要暴露他们的接口，不要暴露他们之间的实现
+
 ##Builder
 **Intent:** Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
